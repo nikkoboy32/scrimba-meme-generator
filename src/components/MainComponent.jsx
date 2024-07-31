@@ -25,7 +25,9 @@ export default function MainComponent() {
         setMeme(prevMeme => {
             return {
                 ...prevMeme,
-                memeImage: memeArray
+                memeImage: memeArray, 
+                topText: "",
+                bottomText: ""
             }
         })
     }
