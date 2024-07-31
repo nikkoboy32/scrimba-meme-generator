@@ -29,3 +29,9 @@ header {background: var(--linear-gradient);}
 
 .form_top_text {top: 10px; position: absolute; left: 50%; transform: translateX(-50%); color: #fff; font-weight: 1000; font-size: 40px; text-transform: uppercase; width: 100%;text-align: center;margin:0 auto;padding:0 10px;word-break: break-all;}
 .form_bottom_text {bottom: 10px; position: absolute; left: 50%; transform: translateX(-50%); color: #fff; font-weight: 1000; font-size: 40px; text-transform: uppercase;width: 100%;text-align: center;margin:0 auto;padding:0 10px;word-break: break-all;}
+
+@media screen and (max-width: 600px) {
+    .form_top_text ,.form_bottom_text {font-size: 25px}
+    .input_con input {width: 100%;}
+    .header_con {padding: 10px; font-size:14px;}
+}
